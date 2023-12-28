@@ -1,0 +1,85 @@
+.profilePage{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    background: #F9F9F9;
+}
+.profilePage-profile{
+    display: flex;
+    align-items: center;
+    height: 160px;
+    border-bottom: 1px solid #CDCDCD;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+.ProfilePage-image{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #5932EA;
+}
+.ProfilePage-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.profilePage-details h2{
+    color:  rgba(0, 0, 0, 0.90);
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+
+}
+.profilePage-details p{
+    color: rgba(0, 0, 0, 0.90);
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+.company_info{
+    background-color: white;
+    border-radius: 31px;
+    margin-top: 25px;
+  
+    border: 1.312px solid  #C7DDE8;
+}
+.company_info_heading{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    padding: 15px 30px;
+}
+.company_info_heading h3{
+    color: #000;
+    font-family: poppins;
+    font-size: 31px;
+    font-weight: 500;
+   
+}
+.company_info_content_left{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 150px;
+    row-gap: 0px;
+    padding: 15px 30px;
+    line-height: 20px;
+}
+.company_info_content_left_section{
+    width: 400px;
+    background-color: white;
+    display: flex;
+}
+.company_info_content_left_section p{
+    color: #717171;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+width: 240px;
+}
+
+.company_info_content_left_section h4{
+    color: rgba(0, 0, 0, 0.90);
+    
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 600;
+    width: 300px;
+}
